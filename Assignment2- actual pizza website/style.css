@@ -1,0 +1,286 @@
+
+
+
+/*lets style up this bitch*/
+
+/*background photo*/
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image:url(img/bg2.png) ;
+    background-attachment: fixed;
+    background-size: cover;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+
+/*menu coloration and sizing, logos etc/ */
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000;
+    padding: 23px 9%;
+    
+}
+
+header div img 
+{
+height: 50px;
+width: auto;
+}
+.phonenumber{
+    display: flex;
+}
+.phonenumber a{
+    color:rgb(196, 17, 17) ;
+    font-size: 0.85em;
+    padding: 5px 10px;
+    margin: 2px 25px;
+    
+}
+.phonenumber a:hover{
+    border-bottom: 2px solid;
+    color: #ffffff;
+}   
+
+
+.menu{
+    display: flex;
+}
+
+.menu a{
+    color: rgb(196, 17, 17);
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 5px 10px;
+    margin: 2px 25px;
+    text-shadow:
+    -1px -1px 0 #000,
+    2px -1px 0 #000,
+    -1px 1px 0 #000,
+    2px 2px 0 #000;
+    
+}
+.menu a:hover{
+    border-bottom: 2px solid;
+    color: #ffffff;
+}
+.Shoppingcart {
+    display: flex;
+    align-items: center;
+    padding: 5px 20px;
+    height: 40px;
+}
+
+.Shoppingcart a:hover{
+    border-bottom: 2px solid;
+    color: #ffffff; 
+}
+/*the masthead with a little blurb. White text looked best but damn mushroom was messing it up.
+had to outline the text in black to make it pop. */
+
+section{
+    padding: 100px;
+}
+
+.masthead{
+    height: 88vh;
+    width: 100%;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 3rem;
+    
+}
+.masthead-splash img{
+    width: 100%;
+    height: auto;
+    padding: 10px 20px;
+}
+.mastheadtext h1{
+    font-size: 4.5rem;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+    color: azure;
+    text-shadow:
+    -1px -1px 0 #000,
+    2px -1px 0 #000,
+    -1px 1px 0 #000,
+    2px 2px 0 #000;
+}
+.mastheadtext p{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: azure;
+    text-shadow:
+    -1px -1px 0 #000,
+    2px -1px 0 #000,
+    -1px 1px 0 #000,
+    2px 2px 0 #000;
+    line-height: 32px;
+    margin-bottom: 2.3rem;
+}
+
+/*fancy button */
+
+.button{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 55px;
+    background:#ff9100;
+    color:#fffbf6 ;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5rem;
+    
+}
+
+.button:hover{
+	letter-spacing: 2px;
+}
+
+/* main body of the webpage with all the fancy stuff */
+
+.main-text h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	font-size: 35px;
+    font-weight: bold;
+	margin-bottom: 10px;
+    color: azure;
+    padding-top: 30px;
+}
+.main-text p{
+	font-size: 25px;
+	font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	color: azure;
+	line-height: 32px;
+}
+.rows img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.menu-items{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    gap: 2rem;
+    align-items: center;
+    margin-top: 4rem;
+    cursor: pointer;
+    padding-top: 65px;
+}
+.sizeoptions{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 0px;
+    gap: 1rem;
+    padding-left: 2rem;
+    color: azure;
+    font-weight: bold;
+    text-shadow:
+    -1px -1px 0 #000,
+    2px -1px 0 #000,
+    -1px 1px 0 #000,
+    2px 2px 0 #000;
+
+}
+
+
+.leftmenu h3{
+    display: flex;
+    font-size: 25px ;
+    color: azure;
+    align-items: center;
+    justify-content: center;
+    text-shadow:
+    -1px -1px 0 #000,
+    2px -1px 0 #000,
+    -1px 1px 0 #000,
+    2px 2px 0 #000;
+}
+
+.rightmenu h4{
+    display: flex;
+    font-size: 20px;
+    color: azure;
+    align-items: center;
+    justify-content: center;
+    text-shadow:
+    -1px -1px 0 #000,
+    2px -1px 0 #000,
+    -1px 1px 0 #000,
+    2px 2px 0 #000;  
+}
+.rightmenu p{
+    display: flex;
+    font-size: 20px;
+    color: azure;
+    align-items: center;
+    justify-content: center;
+    text-shadow:
+    -1px -1px 0 #000,
+    2px -1px 0 #000,
+    -1px 1px 0 #000,
+    2px 2px 0 #000;
+}
+
+
+
+.contact-info {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, auto));
+    justify-content: center;
+    gap: 7rem;
+    text-align: center;
+}
+.contacts-link h5 {
+    font-size: 20px;
+    font-weight: bold;
+    color: azure;
+    text-shadow:
+    -1px -1px 0 #000,
+    2px -1px 0 #000,
+    -1px 1px 0 #000,
+    2px 2px 0 #000;
+    margin-bottom: 1rem;
+}
+
+.contacts-link li {
+    margin-bottom: 15px;
+}
+.contacts-link li a{
+    display: block;
+    color: azure;
+    text-shadow:
+    -1px -1px 0 #000,
+    2px -1px 0 #000,
+    -1px 1px 0 #000,
+    2px 2px 0 #000;
+    font-size: 14px;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    
+}
