@@ -1,0 +1,67 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('images/posterbackground.png');
+  background-size: contain; 
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-position: center center;
+  background-color: black;
+}
+
+.toptext1 {
+    display: flex;
+    word-spacing: 5px;
+    letter-spacing: 9.5px;
+    font-size: 13px;
+    text-align: center;
+    justify-content:center;
+    color:#7ca1cf;
+}
+.aboveEt{
+    display: flex;
+    position: fixed;
+    top: 365px;
+    left: 47%;
+    color:#d8d6d6;
+    font-size:8.5px;
+    word-spacing: 1px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    justify-content:center;
+}
+.belowEt{
+    position: fixed;
+    top: 500px;
+    left: 45%;
+    color:#7ca1cf;
+    font-size:16px;
+    font-weight: bold;
+    text-align: center;
+    justify-content:center;
+}
+
+.aboveearth{
+    position: fixed;
+    top: 605px;
+    left: 45.5%;
+    color:#8daece;
+    font-size:8.5px;
+    font-weight:bold;
+    text-align: center;
+    justify-content:center;
+    line-height: 0.5;
+}
+
+.footertext{
+    position: fixed;
+    top: 740px;
+    left: 45.5%;
+    color:#6c9cc8;
+    font-size:8.5px;
+    font-weight:bold;
+    text-align: center;
+    justify-content:center;
+    line-height: 0.3;
+}
